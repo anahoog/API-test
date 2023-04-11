@@ -1,0 +1,182 @@
+{
+	"info": {
+		"_postman_id": "0e8eaeb0-9b41-4829-a336-5b7e5bed4df2",
+		"name": "4.1 APIs of RTSP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "26848082-0e8eaeb0-9b41-4829-a336-5b7e5bed4df2"
+	},
+	"item": [
+		{
+			"name": "4.1.1 Get Real-Time Stream",
+			"item": [
+				{
+					"name": "4.1.4 Get MJPG Stream",
+					"id": "161631bb-5924-4147-b6c4-1cd0441169ca",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "4.1.1 Get Real-Time Stream",
+					"id": "da57305b-cc60-441c-b795-06a48716230a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "digest",
+							"digest": [
+								{
+									"key": "password",
+									"value": "Intelbras1",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								},
+								{
+									"key": "disableRetryRequest",
+									"value": false,
+									"type": "boolean"
+								},
+								{
+									"key": "algorithm",
+									"value": "MD5",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "rtsp://10.1.45.102:554/cam/realmonitor?channel=1&subtype=0",
+							"protocol": "rtsp",
+							"host": [
+								"10",
+								"1",
+								"45",
+								"102"
+							],
+							"port": "554",
+							"path": [
+								"cam",
+								"realmonitor"
+							],
+							"query": [
+								{
+									"key": "channel",
+									"value": "1"
+								},
+								{
+									"key": "subtype",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "4717c66e-c789-4350-ab57-8fc27d766b67"
+		},
+		{
+			"name": "4.3 Audio",
+			"item": [
+				{
+					"name": "4.3.1 Get Audio Input Channel Numbers",
+					"id": "b0e25f15-2b8c-40ae-8d47-8907c1e6b205",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://10.1.45.102/cgi-bin/devAudioInput.cgi?action=getCollect",
+							"protocol": "http",
+							"host": [
+								"10",
+								"1",
+								"45",
+								"102"
+							],
+							"path": [
+								"cgi-bin",
+								"devAudioInput.cgi"
+							],
+							"query": [
+								{
+									"key": "action",
+									"value": "getCollect"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "4.3.2 Get Audio Output Channel Numbers",
+					"id": "064fbb24-d07e-498f-aa8d-fddada46030b",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
+			"id": "24ff45a0-13d2-4a65-b69a-97490a0f7f73"
+		}
+	],
+	"auth": {
+		"type": "digest",
+		"digest": [
+			{
+				"key": "password",
+				"value": "Intelbras1",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "admin",
+				"type": "string"
+			},
+			{
+				"key": "algorithm",
+				"value": "MD5",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "6cda5d98-19df-488d-91dd-151da82068a2",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "aa4aaf45-ad1d-4d16-b3e9-12967faed2bd",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
