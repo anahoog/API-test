@@ -1,0 +1,25 @@
+_id: req_c50283bfd89546938295e69b0ef17eee
+type: Request
+parentId: fld_2e46574bb4cd44f3aec84dd8532768cc
+modified: 1685718988568
+created: 1685533096615
+url: http://10.1.45.122/cgi-bin/ptz.cgi?action=getStatus&channel=1
+name: 8.1.4 Get PTZ Status
+description: "ChannelNo: integer, video channel index which starts from 1."
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1685531959654
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

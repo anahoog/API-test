@@ -1,0 +1,54 @@
+_id: req_2a8cbfe4d714492fb1762c390fa250ae
+type: Request
+parentId: fld_2e46574bb4cd44f3aec84dd8532768cc
+modified: 1685718980235
+created: 1685532134605
+url: http://10.1.45.122/cgi-bin/configManager.cgi?action=setConfig&Ptz[0].Address=192
+name: 8.1.1.2 Set PTZ config
+description: >-
+  Ptz[port].Address: integer Range is [0—255]. -  Device address, if there are
+  more than one device connected to this port, distinguish them by this address.
+
+
+
+  Ptz[port].Attribute[0]: integer - The baud rate. Range is {1200, 2400, 4800, 9600, 19200, 38400, 57600, 115200}.
+
+
+
+  Ptz[port].Attribute[2]: string - Range is {Even, Mark, None, Odd, Space}.Parity verification mode.
+
+
+  Ptz[port].Attribute[3]: float - Range is {1, 1.5, 2}.Stop bit.
+
+
+  Ptz[port].Homing[0]: integer - Range is {-1,0—255}-1: homing is not enabled. [0—255]: preset point number
+
+
+  Ptz[port].Homing[1]: integer - Range is [0—65535]. No operation timeout, unit is seconds. After no operation timeout, PTZ go to preset point set in Ptz[port].Homing[0]. 
+
+
+  Ptz[port].ProtocolName: string - PTZ protocol name depends on PTZ capability. Refer to GetProtocolList to get the protocol list.
+
+
+  Ptz[port].ControlDelayTime: integer - PTZ control delay time, unit: second
+
+
+
+  Ptz[port].ControlPriority: string - PTZ control priority,the range is "RS485", "Net".default : "Net"
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1685531959804
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: on

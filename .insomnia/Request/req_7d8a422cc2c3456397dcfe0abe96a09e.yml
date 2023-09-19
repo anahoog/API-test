@@ -1,0 +1,21 @@
+_id: req_7d8a422cc2c3456397dcfe0abe96a09e
+type: Request
+parentId: fld_00feeecdb4344c8ba40725432000585d
+modified: 1685719008265
+created: 1685541536033
+url: http://192.168.1.108/cgi-bin/ptz.cgi?action=start&channel=1&code=StopTour&arg1=1&arg
+name: 8.1.7.2 Stop the tour
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685531959550.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_cc1f137fe63343618af30176dec7ba79
+type: Request
+parentId: fld_c46e1575f51642c3ac2298e571f6f3c4
+modified: 1685723712018
+created: 1685723658605
+url: http://10.1.45.122/cgi-bin/configManager.cgi?action=addConfig&General.MachineAddress=XXX%20Road
+name: 4.2.2 Add configure
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1685719737062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

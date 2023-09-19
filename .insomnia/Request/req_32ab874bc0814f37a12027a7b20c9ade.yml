@@ -1,0 +1,21 @@
+_id: req_32ab874bc0814f37a12027a7b20c9ade
+type: Request
+parentId: fld_7356bc72dc3c4d3da44c0731a17e8746
+modified: 1685718951105
+created: 1685541166425
+url: http://192.168.1.108/cgi-bin/ptz.cgi?action=start&code=SetPreset&channel=1&arg1=0&arg2=2&arg3=0
+name: Configuring Preset
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685531959544.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

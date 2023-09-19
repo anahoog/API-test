@@ -1,0 +1,21 @@
+_id: req_6690f1fe94b943a888837260927388f9
+type: Request
+parentId: fld_00feeecdb4344c8ba40725432000585d
+modified: 1685719007087
+created: 1685541436241
+url: http://192.168.1.108/cgi-bin/ptz.cgi?action=start&channel=1&code=StartTour&arg1=1&arg
+name: 8.1.7.1 Start the tour
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685531959600.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

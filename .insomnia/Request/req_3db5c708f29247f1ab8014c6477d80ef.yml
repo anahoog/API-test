@@ -1,0 +1,39 @@
+_id: req_3db5c708f29247f1ab8014c6477d80ef
+type: Request
+parentId: fld_1947cfebed5b48bcbd64c7d9cab0f242
+modified: 1683895437542
+created: 1683894424151
+url: http://<server>/cgi-bin/LogicDeviceManager.cgi?action=addCameraByGroup
+name: addCameraByGroup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	 "group":[{
+    			"DeviceInfo":{
+    				"UserName":"admin",
+    				"Password":"admin123",
+    				"ProtocolType":"Private",
+    		 		"Port":37777,
+    		 		"Address":"172.11.1.161"
+    				},
+    	 		"cameras":[{
+    	 			"uniqueChannel":1
+    	 		}]
+    	 }]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683894424151
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

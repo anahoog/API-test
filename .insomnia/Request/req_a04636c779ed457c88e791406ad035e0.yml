@@ -1,0 +1,21 @@
+_id: req_a04636c779ed457c88e791406ad035e0
+type: Request
+parentId: fld_2e46574bb4cd44f3aec84dd8532768cc
+modified: 1685719186634
+created: 1685533333935
+url: http://192.168.1.108/cgi-bin/ptz.cgi?action=start&code=Continuously&channel=1&arg1=5&arg2=5&arg3
+name: 8.1.5.3 PTZ Continuously Moving
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685531959554
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

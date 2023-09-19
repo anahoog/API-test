@@ -1,0 +1,38 @@
+_id: req_7e8025b1e7c04364bfbc228d778b6367
+type: Request
+parentId: fld_2e46574bb4cd44f3aec84dd8532768cc
+modified: 1685718982841
+created: 1685532699279
+url: http://10.1.45.122/cgi-bin/ptz.cgi?action=getProtocolList&channel=1
+name: 8.1.2 Get PTZ Protocol List
+description: |-
+  Response contains all support PTZ protocols of the server.
+  ChannelNo: integer, video channel index which starts from 1.
+
+
+  Sucess Return:
+
+  info.RS[0]=Pelco
+
+  info.RS[1]=DH-SD1
+
+  info.Coaxial[0]=HD-CVI
+
+  info.Coaxial[1]=HD-CVI2.0
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1685531959754
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

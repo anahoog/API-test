@@ -1,0 +1,44 @@
+_id: req_a541b2a07e36444e963f722730da8a6a
+type: Request
+parentId: fld_2e46574bb4cd44f3aec84dd8532768cc
+modified: 1685718978215
+created: 1685531959854
+url: http://10.1.45.122/cgi-bin/configManager.cgi?action=setConfig&Ptz[0].Address=192
+name: 8.1.1.1 Get PTZ config
+description: |-
+  Return:
+
+  table.Ptz[port].Address=8
+
+  table.Ptz[port].Attribute[0]=115200
+
+  table.Ptz[port].Attribute[1]=8
+
+  table.Ptz[port].Attribute[2]=Even
+
+  table.Ptz[port].Attribute[3]=1
+
+  table.Ptz[port].Homing[0]=0
+
+  table.Ptz[port].Homing[1]=30
+
+  table.Ptz[port].NumberInMatrixs=0
+
+  table.Ptz[port].ProtocolName=NONE
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1685531959854
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

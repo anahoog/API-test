@@ -1,0 +1,23 @@
+_id: req_d14c98b931b24e6f8430b9d01b29d2f7
+type: Request
+parentId: fld_b794d4b791d04455ab5a90e65a4b23d5
+modified: 1685724575220
+created: 1685724549636
+url: http://192.168.1.108/cgi-bin/encode.cgi?action=getConfigCaps&channel=1&Encode[0].MainFormat[0].VHTTP
+  API V3.18_IntelbrasGeneral APIs
+  48ideo.Compression=H.264&Encode[0].MainFormat[0].Video.Width=1920&Encode[0].MainFormat[0].Video.Height=1080
+name: 4.5.3 Get Encode Config Capability
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685724433782
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

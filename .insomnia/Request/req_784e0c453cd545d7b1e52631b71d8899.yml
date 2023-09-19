@@ -1,0 +1,21 @@
+_id: req_784e0c453cd545d7b1e52631b71d8899
+type: Request
+parentId: fld_b794d4b791d04455ab5a90e65a4b23d5
+modified: 1685724453777
+created: 1685724435570
+url: http://192.168.1.108/cgi-bin/magicBox.cgi?action=getProductDefinition&name=MaxExtraStream
+name: 4.5.1 Get Max Extra Stream Numbers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685724433832
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

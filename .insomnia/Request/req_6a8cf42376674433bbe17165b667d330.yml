@@ -1,0 +1,21 @@
+_id: req_6a8cf42376674433bbe17165b667d330
+type: Request
+parentId: fld_7356bc72dc3c4d3da44c0731a17e8746
+modified: 1685718948863
+created: 1685541343641
+url: http://192.168.1.108/cgi-bin/ptz.cgi?action=start&code=ClearPreset&channel=1&arg1=0&arg2=2&arg3
+name: Deleting Preset
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685531959594.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

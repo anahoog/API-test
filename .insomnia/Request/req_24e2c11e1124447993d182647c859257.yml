@@ -1,0 +1,21 @@
+_id: req_24e2c11e1124447993d182647c859257
+type: Request
+parentId: fld_b794d4b791d04455ab5a90e65a4b23d5
+modified: 1685724787883
+created: 1685724761964
+url: http://192.168.1.108/cgi-bin/configManager.cgi?action=setConfig&Encode[1].MainFormat[0].Video.Compression=MPEG4&
+name: 4.5.4.2 Set encode config
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685724433682
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

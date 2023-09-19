@@ -1,0 +1,25 @@
+_id: req_4680d2e8cba54a7babbaaacfca58053b
+type: Request
+parentId: fld_9590646026464a54a9d1543d877360ee
+modified: 1681142522642
+created: 1681142470224
+url: http://10.1.45.102/cgi-bin/encode.cgi?action=getConfigCaps&channel=1&Encode[0].MainFormat[0].Video.Compression=H.264&Encode[0].MainFormat[0].Video.Width=1920&Encode[0].MainFormat[0].Video.Height=1080
+name: 4.5.3 Get Encode Config Capability
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1681142337596
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

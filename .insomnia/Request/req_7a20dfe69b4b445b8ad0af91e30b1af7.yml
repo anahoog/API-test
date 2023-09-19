@@ -1,0 +1,29 @@
+_id: req_7a20dfe69b4b445b8ad0af91e30b1af7
+type: Request
+parentId: fld_6c3deed9ff474a28a9f86f7e13af18c6
+modified: 1680794408857
+created: 1680793971759
+url: http://10.1.45.102/cgi-bin/audio.cgi?action=getAudio&httptype=singlepart&channel=1
+name: 4.3.3 Post Audio Stream
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_09140a2252634d60853a3af3354dc115
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1680790381578
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

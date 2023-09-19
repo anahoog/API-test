@@ -1,0 +1,21 @@
+_id: req_069fc4be1a48415eb63f04f415ac7a5f
+type: Request
+parentId: fld_d21511c9813c41488fb67ca88ff4a210
+modified: 1685719320852
+created: 1685542417735
+url: http://192.168.1.108/cgi-bin/ptz.cgi?action=start&channel=1&code=SetLeftLimit&arg1=1&arg2=0&arg3=0
+name: Set right boundary
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1684303744215.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_4643d6e7bfd44ae7a938ae1c6f2c3252
+type: Request
+parentId: fld_45170da0183142769185aa1e400b3721
+modified: 1686924467089
+created: 1685719430110
+url: rtsp://10.1.45.29:554/cam/playback?channel=1&starttime=2023_15_15_12_37_05&endtime=2023_15_15_18_34_14
+name: 4.1.2 Get Playback Stream
+description: ""
+method: RTSP
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1685719379173
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

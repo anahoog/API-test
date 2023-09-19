@@ -1,0 +1,21 @@
+_id: req_e6d2d452609e462591350736f9280fda
+type: Request
+parentId: fld_b794d4b791d04455ab5a90e65a4b23d5
+modified: 1685724708512
+created: 1685724671744
+url: http://192.168.1.108/cgi-bin/configManager.cgi?action=getConfig&name=Encode
+name: 4.5.4.1 Get encode config
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685724433732
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

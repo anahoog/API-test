@@ -1,0 +1,21 @@
+_id: req_cf26936231244affb8b35e30e069c53a
+type: Request
+parentId: fld_00feeecdb4344c8ba40725432000585d
+modified: 1685719009905
+created: 1685541625889
+url: http://192.168.1.108/cgi-bin/ptz.cgi?action=setTour&channel=1&arg1=1&arg2=1
+name: 8.1.7.3 Add tour group
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685531959500.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

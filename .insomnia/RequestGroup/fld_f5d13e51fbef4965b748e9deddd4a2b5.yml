@@ -1,0 +1,10 @@
+_id: fld_f5d13e51fbef4965b748e9deddd4a2b5
+type: RequestGroup
+parentId: wrk_8082004f58244166925403fd88f92f7a
+modified: 1686919553304
+created: 1686919096040
+name: 11 Thermography and Radiometry APIs
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1686919121572.0547

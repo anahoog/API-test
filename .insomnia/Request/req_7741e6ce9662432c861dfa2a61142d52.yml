@@ -1,0 +1,25 @@
+_id: req_7741e6ce9662432c861dfa2a61142d52
+type: Request
+parentId: fld_45170da0183142769185aa1e400b3721
+modified: 1686924601046
+created: 1685719517252
+url: http://10.1.45.29/cgi-bin/mjpg/video.cgi?channel=1&subtype=1
+name: 4.1.4 Get MJPG Stream
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1685719379073
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

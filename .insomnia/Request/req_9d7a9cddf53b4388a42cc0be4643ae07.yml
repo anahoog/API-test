@@ -1,0 +1,25 @@
+_id: req_9d7a9cddf53b4388a42cc0be4643ae07
+type: Request
+parentId: fld_9590646026464a54a9d1543d877360ee
+modified: 1681142473795
+created: 1681142426047
+url: http://10.1.45.102/cgi-bin/encode.cgi?action=getCaps
+name: 4.5.2 Get Encode Capability
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1681142337646
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

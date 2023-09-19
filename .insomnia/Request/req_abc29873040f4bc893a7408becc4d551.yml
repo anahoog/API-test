@@ -1,0 +1,25 @@
+_id: req_abc29873040f4bc893a7408becc4d551
+type: Request
+parentId: fld_6eab71c45a2e480f9b3a61b4cebec7a0
+modified: 1694691805274
+created: 1685724192588
+url: http://10.1.45.42/cgi-bin/configManager.cgi?action=getConfig&name=Snap
+name: 4.4.1.1 [Config] Snap
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1685724192588
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_f7b0c16ba779493ab89e485344b46fec
+type: Request
+parentId: fld_1947cfebed5b48bcbd64c7d9cab0f242
+modified: 1683897290766
+created: 1683897233045
+url: http://10.1.45.25/cgi-bin/api/MagicBox/getCompleteMachineVersion
+name: 4.6.27 Get Complete Machine Version
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+     "CompleteMachineVersion": "S2"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1683897233045
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

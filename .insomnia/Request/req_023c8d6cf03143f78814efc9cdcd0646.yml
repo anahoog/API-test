@@ -1,0 +1,21 @@
+_id: req_023c8d6cf03143f78814efc9cdcd0646
+type: Request
+parentId: fld_7356bc72dc3c4d3da44c0731a17e8746
+modified: 1685718957825
+created: 1685541160321
+url: http://192.168.1.108/cgi-bin/ptz.cgi?action=start&code=GotoPreset&channel=1&arg1=0&arg2=1&arg3=
+name: " Moving to the Preset"
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685531959569.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

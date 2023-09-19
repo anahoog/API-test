@@ -1,0 +1,34 @@
+_id: req_6c3dd159c4d7412ba3c5aca5d1a2cb88
+type: Request
+parentId: fld_1947cfebed5b48bcbd64c7d9cab0f242
+modified: 1683897229394
+created: 1683895445927
+url: http://10.1.45.25/cgi-bin/api/LogicDeviceManager/attachCameraState
+name: 4.6.26 Subscribing for Device Online/Offline Status
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": [],
+    	"heartbeat": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1683894424101
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

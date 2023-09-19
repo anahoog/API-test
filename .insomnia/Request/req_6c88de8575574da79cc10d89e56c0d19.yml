@@ -1,0 +1,25 @@
+_id: req_6c88de8575574da79cc10d89e56c0d19
+type: Request
+parentId: fld_9590646026464a54a9d1543d877360ee
+modified: 1681142417768
+created: 1681142337696
+url: http://10.1.45.102/cgi-bin/magicBox.cgi?action=getProductDefinition&name=MaxExtraStream
+name: 4.5.1 Get Max Extra Stream Numbers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1681142337696
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_66ccfffae7cc4fe59a621daffb24417b
+type: Request
+parentId: fld_00feeecdb4344c8ba40725432000585d
+modified: 1685719013890
+created: 1685541722369
+url: http://192.168.1.108/cgi-bin/ptz.cgi?action=start&channel=1&code=AddTour&arg1=1&arg
+name: 8.1.7.5 Add tour preset
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685531959538.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

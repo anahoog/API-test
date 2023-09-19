@@ -1,0 +1,25 @@
+_id: req_ff4c9ee00c8640ae935eb6b2caf67f4a
+type: Request
+parentId: fld_6c3deed9ff474a28a9f86f7e13af18c6
+modified: 1685724058987
+created: 1685724008445
+url: http://10.1.45.122/cgi-bin/configManager.cgi?action=getConfig&name=AudioOutputVolume
+name: 4.3.5.1 [Config] Volume Control
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1680790381478
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_d168f06b328a49f78e1953265d0b1880
+type: Request
+parentId: fld_b794d4b791d04455ab5a90e65a4b23d5
+modified: 1685724490996
+created: 1685724433882
+url: http://192.168.1.108/cgi-bin/encode.cgi?action=getCaps
+name: 4.5.2 Get Encode Capability
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685724433882
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

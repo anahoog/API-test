@@ -1,0 +1,119 @@
+_id: req_2b35a0f717c8481cbb9f6839ce74cefb
+type: Request
+parentId: fld_2e46574bb4cd44f3aec84dd8532768cc
+modified: 1685718985850
+created: 1685532786639
+url: http://10.1.45.122/cgi-bin/ptz.cgi?action=getCurrentProtocolCaps&channel=1
+name: 8.1.3 Get PTZ Capability of Current Protocol
+description: >-
+  Parameters in URL:
+
+
+  ChannelNo: PTZ channel index which starts from 1
+
+
+  AlarmLen Alarm length in protocol.
+
+
+  AuxMax: Maximum/Minimum number for auxiliary functions.
+
+
+  AuxMin: Maximum/Minimum number for auxiliary functions.
+
+
+  CamAddrMax: Maximum/Minimum channel address.
+
+
+  CamAddrMin: Maximum/Minimum channel address.
+
+
+  Flip: True or false, support picture flip or not.
+
+
+  Focus: True or false, support focus or not.
+
+
+  Iris: True or false, support Iris adjusts or not.
+
+
+  Menu: True or false, support internal menu of the PTZ or not.
+
+
+  MonAddrMax: Maximum/Minimum monitor address.
+
+
+  MonAddrMin: Maximum/Minimum monitor address.
+
+
+  Name: Name of the operation protocol.
+
+
+  Pan: True or false, support pan or not.
+
+
+  PanSpeedMax:Maximum/Minimum pan speed.
+
+
+  PanSpeedMin: Maximum/Minimum pan speed.
+
+
+  PatternMax: Maximum/Minimum pattern path number.
+
+
+  PatternMin: Maximum/Minimum pattern path number.
+
+
+  PresetMax: Maximum/Minimum preset point number.
+
+
+  PresetMin: Maximum/Minimum preset point number.
+
+
+  Tile: True or false, support tilt or not.
+
+
+  Zoom: True or false, support zoom or not.
+
+
+  TileSpeedMax: Maximum/Minimum tile speed.
+
+
+  TileSpeedMin: Maximum/Minimum tile speed.
+
+
+  TourMax: Maximum/Minimum tour path number.
+
+
+  TourMin: Maximum/Minimum tour path number.
+
+
+  Type: Type of PTZ protocol.
+
+
+  PtzMotionRange.HorizontalAngle: Horizontal angle range，[0] for minimum angle，[1] for maximum angle it only when Pan was true
+
+
+  PtzMotionRange.VerticalAngle: Vertical angle range，[0] for minimum angle，[1] for maximum angle it only when Tile was true
+
+
+  ZoomMax: Maximum/Minimum Zoom.it only when Zoom was true
+
+
+  ZoomMin: Maximum/Minimum Zoom.it only when Zoom was true
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1685531959704
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

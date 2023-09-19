@@ -1,0 +1,25 @@
+_id: req_e98f4caf1ca44c1cbebdac09a0020cb3
+type: Request
+parentId: fld_6c3deed9ff474a28a9f86f7e13af18c6
+modified: 1680793986639
+created: 1680793901879
+url: http://10.1.45.102/cgi-bin/devAudioOutput.cgi?action=getCollect
+name: 4.3.2 Get Audio Output Channel Numbers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1680790381628
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

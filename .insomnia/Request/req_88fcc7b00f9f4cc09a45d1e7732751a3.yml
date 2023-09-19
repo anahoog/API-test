@@ -1,0 +1,25 @@
+_id: req_88fcc7b00f9f4cc09a45d1e7732751a3
+type: Request
+parentId: fld_6c3deed9ff474a28a9f86f7e13af18c6
+modified: 1685724107873
+created: 1685724065794
+url: http://192.168.1.108/cgi-bin/configManager.cgi?action=setConfig&AudioOutputVolume[0]=80&AudioOutputVolume[1]=50
+name: 4.3.5.2 Set Config Request Example
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1680790381428
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

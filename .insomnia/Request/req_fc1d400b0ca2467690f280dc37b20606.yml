@@ -1,0 +1,29 @@
+_id: req_fc1d400b0ca2467690f280dc37b20606
+type: Request
+parentId: fld_45170da0183142769185aa1e400b3721
+modified: 1686924325410
+created: 1685719379223
+url: rtsp://10.1.45.29:554/cam/realmonitor?channel=1&subtype=0
+name: 4.1.1 Get Real-Time Stream
+description: "\n"
+method: RTSP
+body: {}
+parameters:
+  - id: pair_dd89f01e0d71469a928112f3bc953f80
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1685719379223
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

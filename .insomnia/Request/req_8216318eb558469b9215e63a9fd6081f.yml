@@ -1,0 +1,25 @@
+_id: req_8216318eb558469b9215e63a9fd6081f
+type: Request
+parentId: fld_6eab71c45a2e480f9b3a61b4cebec7a0
+modified: 1694519855788
+created: 1685724337350
+url: http://10.1.45.144/cgi-bin/snapshot.cgi?channel=1
+name: 4.4.2 Get a Snapshot
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1685724192488
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

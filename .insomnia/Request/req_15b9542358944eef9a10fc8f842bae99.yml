@@ -1,0 +1,21 @@
+_id: req_15b9542358944eef9a10fc8f842bae99
+type: Request
+parentId: fld_b794d4b791d04455ab5a90e65a4b23d5
+modified: 1686922684377
+created: 1685725001228
+url: ""
+name: 4.5.5.2 Set encode config of region interested
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685724433582
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

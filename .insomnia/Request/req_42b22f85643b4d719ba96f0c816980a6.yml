@@ -1,0 +1,25 @@
+_id: req_42b22f85643b4d719ba96f0c816980a6
+type: Request
+parentId: fld_7356bc72dc3c4d3da44c0731a17e8746
+modified: 1685718999193
+created: 1685541081033
+url: http://10.1.45.122/cgi-bin/ptz.cgi?action=getPresets&channel=1
+name: 8.1.6.1. Getting Preset Information
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1685531959519.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
