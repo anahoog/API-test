@@ -1,0 +1,27 @@
+_id: req_1ec72b6a84024a2ea952d972a83e82b0
+type: Request
+parentId: fld_b794d4b791d04455ab5a90e65a4b23d5
+modified: 1697800207635
+created: 1697798827281
+url: http://{{ _.ip }}/cgi-bin/configManager.cgi?action=getConfig&name=ChannelTitle
+name: 4.5.7 Get channel title
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1685724433982
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

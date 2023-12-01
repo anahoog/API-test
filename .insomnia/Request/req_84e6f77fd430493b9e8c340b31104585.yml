@@ -1,0 +1,27 @@
+_id: req_84e6f77fd430493b9e8c340b31104585
+type: Request
+parentId: fld_fef6ff800dbc48a593d754ced4753503
+modified: 1701444424479
+created: 1701442911318
+url: http://10.1.45.36/cgi-bin/mediaFileFind.cgi?action=findNextFile&object=447852688&count=100
+name: 4.10.5 Find Media Files - Step 3
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1697670270462.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

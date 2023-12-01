@@ -1,0 +1,30 @@
+_id: env_a7242a8fb5844a66b9c0bcfd81edad07
+type: Environment
+parentId: env_be2f895e514e370cefc6c3ec5301860bacce8723
+modified: 1701437525362
+created: 1696415720008
+name: adress
+data:
+  ip: 10.1.45.36
+  port: "554"
+  channel: "1"
+  mainstream: "0"
+  substream1: "1"
+  substream2: "2"
+  starttime: 2023_11_15_12_37_05
+  endtime: 2023_11_15_12_37_05
+  url: cgi-bin/configManager.cgi?action=
+dataPropertyOrder:
+  "&":
+    - ip
+    - port
+    - channel
+    - mainstream
+    - substream1
+    - substream2
+    - starttime
+    - endtime
+    - url
+color: null
+isPrivate: false
+metaSortKey: 1696415720008

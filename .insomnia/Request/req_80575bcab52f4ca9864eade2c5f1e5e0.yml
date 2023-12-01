@@ -1,0 +1,37 @@
+_id: req_80575bcab52f4ca9864eade2c5f1e5e0
+type: Request
+parentId: fld_45170da0183142769185aa1e400b3721
+modified: 1697809925235
+created: 1696416288641
+url: rtsp://{{ _.ip }}:{{ _.port }}/cam/realmonitor?channel={{ _.channel
+  }}&subtype={{ _.mainstream }}
+name: 4.1.1 Describe RTSP
+description: ""
+method: SETUP
+body:
+  mimeType: ""
+  text: |-
+    {
+    	DESCRIBE rtsp://192.168.1.108/cam/realmonitor?channel=1&subtype=0 RTSP/1.0
+    	CSeq: 1
+    	User-Agent: LibVLC/3.0.5
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: ""
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1685719379198
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

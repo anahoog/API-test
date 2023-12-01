@@ -1,0 +1,35 @@
+_id: env_cd0bffe6cc1f404e9b08b0ea90993b1b
+type: Environment
+parentId: env_be2f895e514e370cefc6c3ec5301860bacce8723
+modified: 1701434018290
+created: 1696415740637
+name: playback
+data:
+  object: "08137"
+  condition:
+    Channel: "1"
+    StartTime: 2023-09-15 12:00:00
+    EndTime: 2023-09-15 12:05:00
+    Dirs:
+      - /mnt/dvr/sda0
+    Types:
+      - dav
+    Events:
+      - AlarmLocal
+      - VideoMotion
+    VideoStream: Main
+dataPropertyOrder:
+  "&":
+    - object
+    - condition
+  "&~|condition":
+    - Channel
+    - StartTime
+    - EndTime
+    - Dirs
+    - Types
+    - Events
+    - VideoStream
+color: null
+isPrivate: false
+metaSortKey: 1696415740637

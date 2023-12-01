@@ -1,0 +1,24 @@
+_id: req_ab06226323844a2e9643e1eb6c0e570f
+type: Request
+parentId: wrk_8082004f58244166925403fd88f92f7a
+modified: 1696416084463
+created: 1696416050583
+url: http://{{ _.ip }}:{{ _.port
+  }}/cgi-bin/configManager.cgi?action=setConfig&General.MachineID=20832748927&General.MachineName=DVR001&General.MachineAddress=XXX%20Road
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696416050583
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

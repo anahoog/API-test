@@ -1,0 +1,28 @@
+_id: req_b7ab66617b794d56ae80ecc258d2df35
+type: Request
+parentId: fld_b794d4b791d04455ab5a90e65a4b23d5
+modified: 1697801548563
+created: 1697800237689
+url: http://{{ _.ip
+  }}/cgi-bin/configManager.cgi?action=setConfig&VideoWidget[0].ChannelTitle[0].EncodeBlend.Enable=true
+name: 4.5.11 [Config] Video Widget
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1685724434082
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
