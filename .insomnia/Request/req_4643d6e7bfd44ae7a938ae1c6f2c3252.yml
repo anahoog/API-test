@@ -1,11 +1,11 @@
 _id: req_4643d6e7bfd44ae7a938ae1c6f2c3252
 type: Request
 parentId: fld_45170da0183142769185aa1e400b3721
-modified: 1715171262907
+modified: 1715959785157
 created: 1685719430110
 url: rtsp://{{ _.ip }}:{{ _.port }}/cam/playback?channel={{ _.channel
   }}&starttime={{ _.starttime }}&endtime={{ _.endtime }}
-name: 4.1.2 Get Playback Stream
+name: "[OK] 4.1.2 Get Playback Stream"
 description: ""
 method: RTSP
 body: {}

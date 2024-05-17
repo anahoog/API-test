@@ -1,10 +1,10 @@
 _id: req_3169a26354ac4f78a66ce1fe645e5686
 type: Request
 parentId: fld_c46e1575f51642c3ac2298e571f6f3c4
-modified: 1715171292741
+modified: 1715962741103
 created: 1685719737162
 url: http://{{ _.ip }}/cgi-bin/configManager.cgi?action=getConfig&name=General
-name: 4.2.1 Get Configure
+name: "[OK] 4.2.1 Get Configure"
 description: ""
 method: GET
 body: {}

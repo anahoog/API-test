@@ -1,11 +1,11 @@
 _id: req_931c3c4c01524e679642d0393208fba9
 type: Request
 parentId: fld_c46e1575f51642c3ac2298e571f6f3c4
-modified: 1715171325067
+modified: 1715962752887
 created: 1685723575904
 url: http://{{ _.ip
   }}/cgi-bin/configManager.cgi?action=setConfig&General.MachineID=20832748927&General.MachineName=DVR001&General.MachineAddress=XXX%20Road
-name: 4.2.2 Set Configure
+name: "[OK] 4.2.2 Set Configure"
 description: ""
 method: GET
 body: {}

@@ -1,11 +1,11 @@
 _id: req_5520111e7cf344efa914059120f043da
 type: Request
 parentId: fld_c46e1575f51642c3ac2298e571f6f3c4
-modified: 1715171378165
+modified: 1715962781328
 created: 1685723773527
 url: hhttp://{{ _.ip
   }}/cgi-bin/configManager.cgi?action=restore&names[0]=General&names[1]=General
-name: 4.2.3 Restore the Config
+name: "[NOK] 4.2.3 Restore the Config"
 description: ""
 method: GET
 body: {}

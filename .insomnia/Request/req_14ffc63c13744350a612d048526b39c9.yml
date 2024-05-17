@@ -1,17 +1,21 @@
 _id: req_14ffc63c13744350a612d048526b39c9
 type: Request
 parentId: fld_c46e1575f51642c3ac2298e571f6f3c4
-modified: 1715171398646
+modified: 1715962843583
 created: 1685723853874
 url: http://{{ _.ip
   }}/cgi-bin/configManager.cgi?action=restoreExcept&names[0]=General&names[1]=UPnp
-name: 4.2.4 Restore except the Config
+name: "[OK] 4.2.4 Restore except the Config"
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
 metaSortKey: -1685719736912
 isPrivate: false
 settingStoreCookies: true

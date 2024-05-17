@@ -1,10 +1,10 @@
 _id: req_d168f06b328a49f78e1953265d0b1880
 type: Request
 parentId: fld_b794d4b791d04455ab5a90e65a4b23d5
-modified: 1715171737610
+modified: 1715964210624
 created: 1685724433882
 url: http://{{ _.ip }}/cgi-bin/encode.cgi?action=getCaps
-name: 4.5.2 Get Encode Capability
+name: "[OK] 4.5.2 Get Encode Capability"
 description: ""
 method: GET
 body: {}
@@ -15,7 +15,7 @@ authentication:
   disabled: false
   username: admin
   password: Intelbras1
-metaSortKey: -1685724433882
+metaSortKey: -1685724434132
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

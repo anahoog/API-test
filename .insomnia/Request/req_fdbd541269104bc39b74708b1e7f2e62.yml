@@ -1,12 +1,12 @@
 _id: req_fdbd541269104bc39b74708b1e7f2e62
 type: Request
 parentId: fld_6c3deed9ff474a28a9f86f7e13af18c6
-modified: 1715171558090
+modified: 1715963079455
 created: 1685723942750
 url: http://{{ _.ip
   }}/cgi-bin/audio.cgi?action=getAudio&httptype=singlepart&channel={{ _.channel
   }}
-name: 4.3.4 Get Audio Stream
+name: "[NOK] 4.3.4 Get Audio Stream"
 description: ""
 method: GET
 body: {}

@@ -1,10 +1,10 @@
 _id: req_8216318eb558469b9215e63a9fd6081f
 type: Request
 parentId: fld_6eab71c45a2e480f9b3a61b4cebec7a0
-modified: 1715776855376
+modified: 1715963178638
 created: 1685724337350
 url: http://{{ _.ip }}/cgi-bin/snapshot.cgi?channel={{ _.channel }}
-name: 4.4.2 Get a Snapshot
+name: "[OK] 4.4.2 Get a Snapshot"
 description: ""
 method: GET
 body: {}

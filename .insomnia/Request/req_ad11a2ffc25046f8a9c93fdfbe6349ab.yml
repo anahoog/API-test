@@ -1,20 +1,24 @@
 _id: req_ad11a2ffc25046f8a9c93fdfbe6349ab
 type: Request
 parentId: fld_6eab71c45a2e480f9b3a61b4cebec7a0
-modified: 1715171626427
+modified: 1715963158938
 created: 1685724212109
 url: http://{{ _.ip
   }}/cgi-bin/configManager.cgi?action=setConfig&Snap[0].HolidayEnable=true&Snap[0].TimeSection[0][0]=6
   00:00:00-23:59:59&Snap[0].TimeSection[0][1]=0
   00:00:00-23:59:59&Snap[1].HolidayEnable=false&Snap[1].TimeSection[0][1]=0
   00:00:00-23:59:59&Snap[1].TimeSection[0][1]=0 00:00:00-23:59:59
-name: 4.4.1.2 Set Config
+name: "[NOK] 4.4.1.2 Set Config"
 description: ""
 method: POST
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
 metaSortKey: -1685724192538
 isPrivate: false
 settingStoreCookies: true

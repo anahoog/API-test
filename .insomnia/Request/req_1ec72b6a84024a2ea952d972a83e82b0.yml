@@ -1,10 +1,10 @@
 _id: req_1ec72b6a84024a2ea952d972a83e82b0
 type: Request
 parentId: fld_b794d4b791d04455ab5a90e65a4b23d5
-modified: 1697800207635
+modified: 1715963342661
 created: 1697798827281
 url: http://{{ _.ip }}/cgi-bin/configManager.cgi?action=getConfig&name=ChannelTitle
-name: 4.5.7 Get channel title
+name: "[OK] 4.5.7 Get channel title"
 description: ""
 method: GET
 body: {}
