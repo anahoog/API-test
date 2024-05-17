@@ -1,0 +1,23 @@
+_id: req_988beb7948434306b74bbc1cedb2e0d7
+type: Request
+parentId: fld_6c3deed9ff474a28a9f86f7e13af18c6
+modified: 1715963684353
+created: 1715963592575
+url: ""
+name: 4.3.11 AudioAnalyseModule Config
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1680790380928
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

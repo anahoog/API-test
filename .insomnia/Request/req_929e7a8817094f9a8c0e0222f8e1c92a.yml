@@ -1,0 +1,23 @@
+_id: req_929e7a8817094f9a8c0e0222f8e1c92a
+type: Request
+parentId: fld_6c3deed9ff474a28a9f86f7e13af18c6
+modified: 1715963677379
+created: 1715963519830
+url: ""
+name: 4.3.6 Getting the Analysis Configurations of the Specified Audio Channel
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1680790381328
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

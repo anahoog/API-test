@@ -1,0 +1,24 @@
+_id: req_03916e9b1a2648828f16a2b4e89672f8
+type: Request
+parentId: fld_6c3deed9ff474a28a9f86f7e13af18c6
+modified: 1715963682676
+created: 1715963558497
+url: ""
+name: 4.3.9 Configuring the Related Business Configuration of the Specified
+  Audio Channel
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1680790381028
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

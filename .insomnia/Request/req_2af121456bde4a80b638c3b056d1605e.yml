@@ -1,0 +1,27 @@
+_id: req_2af121456bde4a80b638c3b056d1605e
+type: Request
+parentId: fld_a7f83e04167047c5bf75d391810bb52e
+modified: 1715770760821
+created: 1715685680642
+url: http://10.1.45.87/cgi-bin/userManager.cgi?action=getUserInfoAll
+name: 4.7.2 Get Information of All Users
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: digest
+  disabled: false
+  username: admin
+  password: Intelbras1
+metaSortKey: -1715770760714
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

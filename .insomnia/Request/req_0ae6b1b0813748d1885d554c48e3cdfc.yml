@@ -1,0 +1,23 @@
+_id: req_0ae6b1b0813748d1885d554c48e3cdfc
+type: Request
+parentId: fld_6c3deed9ff474a28a9f86f7e13af18c6
+modified: 1715963679029
+created: 1715963529941
+url: ""
+name: 4.3.7 Setting the Analysis Configuration of the Specified Audio Channel
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1680790381228
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

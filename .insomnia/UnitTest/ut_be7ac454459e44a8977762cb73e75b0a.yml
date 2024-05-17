@@ -1,0 +1,10 @@
+_id: ut_be7ac454459e44a8977762cb73e75b0a
+type: UnitTest
+parentId: uts_6fcb11189a134855907dcb61a2256e2e
+modified: 1715964369473
+created: 1715964335174
+requestId: req_8216318eb558469b9215e63a9fd6081f
+name: Get a Snapshot
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

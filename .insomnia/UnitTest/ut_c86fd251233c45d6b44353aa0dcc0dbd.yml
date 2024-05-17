@@ -1,0 +1,10 @@
+_id: ut_c86fd251233c45d6b44353aa0dcc0dbd
+type: UnitTest
+parentId: uts_6fcb11189a134855907dcb61a2256e2e
+modified: 1715964348640
+created: 1715964310558
+requestId: req_abc29873040f4bc893a7408becc4d551
+name: Config Snap
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

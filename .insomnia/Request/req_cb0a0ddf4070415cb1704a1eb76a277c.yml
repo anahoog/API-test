@@ -1,0 +1,23 @@
+_id: req_cb0a0ddf4070415cb1704a1eb76a277c
+type: Request
+parentId: fld_6c3deed9ff474a28a9f86f7e13af18c6
+modified: 1715963689963
+created: 1715963612973
+url: ""
+name: 4.3.12 Play the Specified Audio in the Device
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1680790380828
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: true
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: on
