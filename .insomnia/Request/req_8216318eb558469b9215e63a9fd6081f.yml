@@ -1,15 +1,23 @@
 _id: req_8216318eb558469b9215e63a9fd6081f
 type: Request
 parentId: fld_6eab71c45a2e480f9b3a61b4cebec7a0
-modified: 1694519855788
+modified: 1715776855376
 created: 1685724337350
-url: http://10.1.45.144/cgi-bin/snapshot.cgi?channel=1
+url: http://{{ _.ip }}/cgi-bin/snapshot.cgi?channel={{ _.channel }}
 name: 4.4.2 Get a Snapshot
 description: ""
 method: GET
 body: {}
-parameters: []
-headers: []
+parameters:
+  - id: pair_2a41bd95c6004d14a46c3a8197d25121
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - id: pair_7d6c1a20550e4bc3abc874116fe30581
+    name: HTTP-Version
+    value: HTTP/0.9
+    description: ""
 authentication:
   type: digest
   disabled: false

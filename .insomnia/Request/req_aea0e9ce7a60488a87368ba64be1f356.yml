@@ -1,9 +1,10 @@
 _id: req_aea0e9ce7a60488a87368ba64be1f356
 type: Request
 parentId: fld_6eab71c45a2e480f9b3a61b4cebec7a0
-modified: 1685724380646
+modified: 1715171662103
 created: 1685724363669
-url: http://192.168.1.108/cgi-bin/snapManager.cgi?action=attachFileProc&channel=1&heartbeat=5&Flags[0]=Event&Events=[VideoMotion%2CVideoLoss]
+url: http://{{ _.ip
+  }}/cgi-bin/snapManager.cgi?action=attachFileProc&channel=1&heartbeat=5&Flags[0]=Event&Events=[VideoMotion%2CVideoLoss]
 name: 4.4.3 Subscribe to Snapshot
 description: ""
 method: GET

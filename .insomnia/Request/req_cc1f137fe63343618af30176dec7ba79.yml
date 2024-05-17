@@ -1,10 +1,11 @@
 _id: req_cc1f137fe63343618af30176dec7ba79
 type: Request
 parentId: fld_c46e1575f51642c3ac2298e571f6f3c4
-modified: 1685723712018
+modified: 1715171990148
 created: 1685723658605
-url: http://10.1.45.122/cgi-bin/configManager.cgi?action=addConfig&General.MachineAddress=XXX%20Road
-name: 4.2.2 Add configure
+url: http://{{ _.ip
+  }}/cgi-bin/configManager.cgi?action=addConfig&General.MachineAddress=XXX%20Road
+name: "[NOK] - 4.2.2 Add configure"
 description: ""
 method: GET
 body: {}

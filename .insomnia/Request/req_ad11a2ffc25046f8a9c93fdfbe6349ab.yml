@@ -1,9 +1,10 @@
 _id: req_ad11a2ffc25046f8a9c93fdfbe6349ab
 type: Request
 parentId: fld_6eab71c45a2e480f9b3a61b4cebec7a0
-modified: 1685724311462
+modified: 1715171626427
 created: 1685724212109
-url: http://192.168.1.108/cgi-bin/configManager.cgi?action=setConfig&Snap[0].HolidayEnable=true&Snap[0].TimeSection[0][0]=6
+url: http://{{ _.ip
+  }}/cgi-bin/configManager.cgi?action=setConfig&Snap[0].HolidayEnable=true&Snap[0].TimeSection[0][0]=6
   00:00:00-23:59:59&Snap[0].TimeSection[0][1]=0
   00:00:00-23:59:59&Snap[1].HolidayEnable=false&Snap[1].TimeSection[0][1]=0
   00:00:00-23:59:59&Snap[1].TimeSection[0][1]=0 00:00:00-23:59:59

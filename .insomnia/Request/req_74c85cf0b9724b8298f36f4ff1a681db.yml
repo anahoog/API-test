@@ -1,9 +1,9 @@
 _id: req_74c85cf0b9724b8298f36f4ff1a681db
 type: Request
 parentId: fld_6c3deed9ff474a28a9f86f7e13af18c6
-modified: 1680793874621
+modified: 1715171419715
 created: 1680790381678
-url: http://10.1.45.102/cgi-bin/devAudioInput.cgi?action=getCollect
+url: http://{{ _.ip }}/cgi-bin/devAudioInput.cgi?action=getCollect
 name: 4.3.1 Get Audio Input Channel Numbers
 description: ""
 method: GET

@@ -1,7 +1,7 @@
 _id: req_80575bcab52f4ca9864eade2c5f1e5e0
 type: Request
 parentId: fld_45170da0183142769185aa1e400b3721
-modified: 1697809925235
+modified: 1715170721285
 created: 1696416288641
 url: rtsp://{{ _.ip }}:{{ _.port }}/cam/realmonitor?channel={{ _.channel
   }}&subtype={{ _.mainstream }}

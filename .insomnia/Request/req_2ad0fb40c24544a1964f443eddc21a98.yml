@@ -1,9 +1,10 @@
 _id: req_2ad0fb40c24544a1964f443eddc21a98
 type: Request
 parentId: fld_c46e1575f51642c3ac2298e571f6f3c4
-modified: 1685723848677
+modified: 1715171359392
 created: 1685723724450
-url: http://10.1.45.122/cgi-bin/configManager.cgi?action=removeConfig&General.MachineAddress
+url: http://{{ _.ip
+  }}/cgi-bin/configManager.cgi?action=removeConfig&General.MachineAddress
 name: 4.2.3 Remove configure
 description: ""
 method: GET
